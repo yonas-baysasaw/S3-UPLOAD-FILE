@@ -1,0 +1,27 @@
+{
+  "name": "s3-upload-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonas-baysasaw/S3-UPLOAD-FILE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yonas-baysasaw/S3-UPLOAD-FILE/issues"
+  },
+  "homepage": "https://github.com/yonas-baysasaw/S3-UPLOAD-FILE#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "exprss": "^0.0.1-security",
+    "multer": "^2.1.1",
+    "nodemon": "^3.1.14"
+  }
+}
