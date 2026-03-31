@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon --legacy-watch index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,11 @@
   },
   "homepage": "https://github.com/yonas-baysasaw/S3-UPLOAD-FILE#readme",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.883.0",
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "exprss": "^0.0.1-security",
     "multer": "^2.1.1",
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "uuid": "^13.0.0"
   }
 }
